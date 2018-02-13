@@ -1,0 +1,129 @@
+/* FOOTER */
+body {
+	margin : 0 auto;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Roboto', sans-serif;
+}
+
+.footerUp {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.paymentMethods img {
+	width : 50px;
+	height: 50px;
+}
+
+.paymentMethods {
+	display: flex;
+}
+
+.paymentMethods li {
+	list-style: none;
+	margin-right: 40px;
+}
+
+.verticalLine {
+	width: 1px;
+	height: 50px;
+	background-color: black;
+	display: inline-block;
+}
+
+.footerDown {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: rgba(189, 195, 199,0.2);
+}
+
+.footerDown_ul {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.footerDown ul{
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.footerDown li {
+	padding: 20px;
+}
+
+.footerDown ul li .contactList {
+	padding-left: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.footerDown ul li ul li {
+	padding: 0;
+}
+
+.footerDown .networkList li{
+	padding-right: 10px;
+		
+}
+
+.footerDown .NewsletterList {
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.footerDown span {
+	margin-bottom: 10px;
+	border-bottom: 2px solid black;
+	display: inline-block;
+}
+
+form input {
+	background-color: white;
+	width : 13vw;
+	height: 3.5vh;
+}
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 14px;
+  background: #000000;
+  padding: 6px 17px 6px 16px;
+  border: solid #1f628d 1px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FFFFFF;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.footerDown .infoList {
+	flex-direction: column;
+}
+
+.footerDown a {
+	text-decoration: none;
+	color: black;
+}
+
+.footerDown .infoList a:hover {
+	text-decoration: underline;
+	transition: 1s;
+}
+
