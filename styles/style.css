@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header{
   margin: 0px  ;
 }
@@ -5,8 +6,17 @@ header{
   width:503px;
   height:127px;
   float : left ;
+=======
+.image {
+  width:503px;
+  height:127px;
+  padding-right:300px;
+>>>>>>> db1ae5fc96598dada9004bdaee396457b9c87a88
 }
+.header{
+  display:flex;
 
+<<<<<<< HEAD
 header a{
   text-decoration: none ;
   color: black ;
@@ -22,3 +32,24 @@ header a{
   width : 40px;
   float : right;
 }
+=======
+}
+
+.menu {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+.headerTop {
+ margin-left:30px;
+ float:left;/*pour IE*/
+ }
+.menu li a {
+ display:block;
+ float:left;
+ width:100px;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ }
+>>>>>>> db1ae5fc96598dada9004bdaee396457b9c87a88
