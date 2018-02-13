@@ -2,7 +2,12 @@
   width:503px;
   height:127px;
 }
+.header{
+  display:flex;
+  justify-content:space-between;
 
-.cc {
+}
+.menu{
   display: flex;
+  text-decoration: none;
 }
