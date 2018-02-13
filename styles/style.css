@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header{
  margin: 0px  ;
 }
@@ -22,4 +23,25 @@ header a{
  width : 40px;
  float : right;
  padding-right: 10px ;
+=======
+
+.image {
+  width:503px;
+  height:127px;
+  padding-right:400px;
+  justify-content: space-between;
 }
+.header{
+  display:flex;
+>>>>>>> b0d58dd3f15df885c3b4adb064b61e12d8de4c04
+}
+.headerTop {
+ margin-left:10px;
+ float:left;/*pour IE*/
+ padding-right: 30px;;
+ }
+ .headerTop a{
+   text-decoration:none;
+   list-style: none;
+   color: #9c88ff;
+ }
