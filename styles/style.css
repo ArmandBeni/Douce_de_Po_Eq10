@@ -1,13 +1,27 @@
-.image img{
+.image {
   width:503px;
   height:127px;
+  padding-right:300px;
 }
 .header{
   display:flex;
-  justify-content:space-between;
 
 }
-.menu{
-  display: flex;
-  text-decoration: none;
-}
+
+.menu {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+.headerTop {
+ margin-left:30px;
+ float:left;/*pour IE*/
+ }
+.menu li a {
+ display:block;
+ float:left;
+ width:100px;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ }
