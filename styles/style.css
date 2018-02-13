@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header{
   margin: 0px  ;
 }
@@ -76,3 +77,52 @@ nav.menu ul li:hover ul{
   border-style: solid ;
   border-width: 0px 0px 0px 2px;
 }
+=======
+<<<<<<< HEAD
+header{
+ margin: 0px  ;
+}
+#logo{
+ width:503px;
+ height:127px;
+ float : left ;
+}
+
+header a{
+ text-decoration: none ;
+ color: black ;
+ padding-right : 25px ;
+ float: right;
+}
+
+.manchette{
+ padding-right : 150px ;
+}
+
+.manchette img{
+ width : 40px;
+ float : right;
+ padding-right: 10px ;
+=======
+
+.image {
+  width:503px;
+  height:127px;
+  padding-right:400px;
+  justify-content: space-between;
+}
+.header{
+  display:flex;
+>>>>>>> b0d58dd3f15df885c3b4adb064b61e12d8de4c04
+}
+.headerTop {
+ margin-left:10px;
+ float:left;/*pour IE*/
+ padding-right: 30px;;
+ }
+ .headerTop a{
+   text-decoration:none;
+   list-style: none;
+   color: #9c88ff;
+ }
+>>>>>>> e29d916c5f992308ad9aae18933133038eb86c3f
