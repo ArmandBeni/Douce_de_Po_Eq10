@@ -5,4 +5,11 @@
 
 .cc {
   display: flex;
+  justify-content: space-between;
+  padding-right: 400px
+}
+
+.manchette {
+  justify-content: space-between;
+
 }
