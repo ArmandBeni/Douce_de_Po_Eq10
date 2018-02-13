@@ -1,15 +1,19 @@
-.image img{
+header{
+  margin: 0px  ;
+}
+img{
   width:503px;
   height:127px;
+  float : left ;
 }
 
-.cc {
-  display: flex;
-  justify-content: space-between;
-  padding-right: 400px
+header a{
+  text-decoration: none ;
+  color: black ;
+  padding-right : 25px ;
+  float: right;
 }
 
-.manchette {
-  justify-content: space-between;
-
+.manchette{
+  padding-right : 150px ;
 }
