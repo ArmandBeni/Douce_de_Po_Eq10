@@ -1,4 +1,8 @@
-.image {
-  widows:50px;
-  height:50px;
+.image img{
+  width:503px;
+  height:127px;
+}
+
+.cc {
+  display: flex;
 }
